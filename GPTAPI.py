@@ -1,7 +1,7 @@
 import openai
 
 #Initialize the OpenAI API
-openai.api_key = "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"
+openai.api_key = "APIKEY"
 
 
 def openaiAPI(word_1,word_2):
@@ -14,6 +14,14 @@ def openaiAPI(word_1,word_2):
         ]
     )
     print(response['choices'][0]['message']['content'])
+
+
+
+
+
+
+
+
 
 
 
