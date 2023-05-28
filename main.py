@@ -13,16 +13,19 @@ from model import *
 from functions import *
 from plot import *
 from cluster import *
-from GPTAPI import openaiAPI
+#from GPTAPI import openaiAPI
 
 df = pd.read_csv("Ejemplo_abstract.csv")
 df['Abstract'] = df['Abstract'].apply(eliminar_caracteres_extraños)
 #Eliminar conectores
 stop_words = set(stopwords.words('english'))
+#Obtener palabras claves
+
 #Transformar palabras en vectores
-words = nltk.word_tokenize(df["Abstract"][0])
-words = [word for word in words if word.lower() not in stop_words]
-words= list(set(words))
+# words = nltk.word_tokenize(df["Abstract"][0])
+# words = [word for word in words if word.lower() not in stop_words]
+words=NER(df["Abstract"][0])
+print(words)
 tensor_list=[]
 for i in range(0,len(words)):
     
@@ -53,15 +56,23 @@ tensor_dataframe["label"]= cluster_labels
 print(tensor_dataframe["reduced_X"][0])
 print(tensor_dataframe["reduced_Y"][0])
 # Graficar los puntos con colores representando los clusters
-plt.figure(figsize=(8, 6))
+plt.figure(figsize=(20, 16))
 plt.scatter(tensor_reduced[:, 0], tensor_reduced[:, 1], c=cluster_labels)
 plt.title("Palabras Clusterizadas")
 for i, word in enumerate(words):
-    plt.text(tensor_reduced[i, 0], tensor_reduced[i, 1], word)
+    plt.text(tensor_reduced[i, 0], tensor_reduced[i, 1], word, ha='center', va='center', fontsize=8)
 
 # Permitir que el usuario seleccione dos puntos
 print("Haz click en dos puntos para calcular la correlación lineal.")
 points = plt.ginput(2)
+# Ajustar los límites del gráfico para una mejor visualización
+x_margin = (max(tensor_reduced[:, 0]) - min(tensor_reduced[:, 0])) * 0.2
+y_margin = (max(tensor_reduced[:, 1]) - min(tensor_reduced[:, 1])) * 0.2
+plt.xlim(min(tensor_reduced[:, 0]) - x_margin, max(tensor_reduced[:, 0]) + x_margin)
+plt.ylim(min(tensor_reduced[:, 1]) - y_margin, max(tensor_reduced[:, 1]) + y_margin)
+
+ # Ajustar la separación entre los puntos
+plt.tight_layout()
 plt.close()
 
 x1, y1 = nearest_points(tensor_reduced, points[0])
@@ -94,4 +105,4 @@ print([word_1,word_2])
 # Mostrar el gráfico con los puntos y la correlación lineal
 plot(tensor_pca=tensor_reduced,cluster_labels=cluster_labels,words=words,X=X,Y=Y)
 
-openaiAPI(word_1, word_2)
+# openaiAPI(word_1, word_2)

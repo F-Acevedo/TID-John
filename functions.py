@@ -9,11 +9,19 @@ import pandas as pd
 from gensim.models import Word2Vec
 import re
 import nltk
+import spacy
 from nltk.corpus import stopwords
 from sklearn.decomposition import PCA
 from scipy.spatial import distance
 
-
+def NER(text):
+    # Tener instalado Spacy y spacy-transformers
+    nlp = spacy.load("en_core_sci_scibert-0.5.1")
+    doc = nlp(text)
+    # print(list(doc.sents))
+    # print("Mostrando entidades")
+    words = [ent.text for ent in doc.ents]
+    return words
 def eliminar_caracteres_extraños(cadena):
     patron = re.compile(r'[^a-zA-Z\s]')
     cadena_limpia = patron.sub('', cadena)
