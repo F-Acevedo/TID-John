@@ -14,13 +14,25 @@ from functions import *
 from plot import *
 from cluster import *
 from GPTAPI import openaiAPI
+import os
 
-df = pd.read_csv("Ejemplo_abstract.csv")
-df['Abstract'] = df['Abstract'].apply(eliminar_caracteres_extraños)
+# Función para obtener el contenido del archivo
+def get_file_content(folder_path, x):
+    files = os.listdir(folder_path)
+    texts = []
+    for i in range(min(x, len(files))):
+        file_path = os.path.join(folder_path, files[i])
+        with open(file_path, 'r', encoding='utf-8') as file:
+            content = file.read()
+        texts.append(content)
+    df = pd.DataFrame(texts, columns=['Text'])
+    return df
+
+df = get_file_content("papers", 2)
 #Eliminar conectores
 stop_words = set(stopwords.words('english'))
 #Transformar palabras en vectores
-words = nltk.word_tokenize(df["Abstract"][0])
+words = nltk.word_tokenize(df['Text'][0])
 words = [word for word in words if word.lower() not in stop_words]
 words= list(set(words))
 tensor_list=[]
@@ -94,4 +106,4 @@ print([word_1,word_2])
 # Mostrar el gráfico con los puntos y la correlación lineal
 plot(tensor_pca=tensor_reduced,cluster_labels=cluster_labels,words=words,X=X,Y=Y)
 
-openaiAPI(word_1, word_2)
+#openaiAPI(word_1, word_2)
