@@ -1,21 +1,22 @@
-# import openai
+import openai
 
-# #Initialize the OpenAI API
-# openai.api_key = "APIKEY"
+openai.api_key = "xd"
 
+def openaiAPI(df, word_1, word_2):
+    messages = []
+    
+    # Add a message for each text in the dataframe
+    for text in df["Text"]:
+        messages.append({"role": "user", "content": text})
+    
+    messages.append({"role": "user", "content": f"Ahora enlista las relaciones entre {word_1} y {word_2} luego explica cada relacion."})
 
-# def openaiAPI(word_1,word_2):
-#     response=openai.ChatCompletion.create(
-#     model="gpt-3.5-turbo",
-#     messages=[
-#             {"role": "system", "content": "You are a helpful assistant."},
+    response = openai.ChatCompletion.create(
+        model="gpt-3.5-turbo",
+        messages=messages
+    )
 
-#             {"role": "user", "content": "I need you to make an hypothesis between the word {} and the word {}".format(word_1,word_2)}
-#         ]
-#     )
-#     print(response['choices'][0]['message']['content'])
-
-
+    print(response['choices'][0]['message']['content'])
 
 
 
