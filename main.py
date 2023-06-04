@@ -22,8 +22,6 @@ logging.getLogger("transformers").setLevel(logging.ERROR)
 
 df = get_file_content("papers", 1)
 
-#Eliminar conectores
-stop_words = set(stopwords.words('english'))
 #Obtener palabras claves
 
 #Transformar palabras en vectores
@@ -33,10 +31,7 @@ stop_words = set(stopwords.words('english'))
 # CICLO
 results = []
 for text in df['Text']:
-    stop_words = set(stopwords.words('english'))
-    words = nltk.word_tokenize(text)
-    words = [word for word in words if word.lower() not in stop_words]
-
+    words=NER(text)
     #Transformar palabras en vectores
     tensor_list = []
     for i in range(0, len(words)):

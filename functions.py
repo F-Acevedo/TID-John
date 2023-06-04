@@ -17,7 +17,7 @@ import os
 
 def NER(text):
     # Tener instalado Spacy y spacy-transformers
-    nlp = spacy.load("en_core_sci_scibert")
+    nlp = spacy.load("en_core_sci_scibert-0.5.1")
     doc = nlp(text)
     # print(list(doc.sents))
     # print("Mostrando entidades")
