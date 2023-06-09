@@ -14,6 +14,8 @@ from functions import *
 from plot import *
 from cluster import *
 from GPTAPI import openaiAPI
+import mplcursors
+from mpl_interactions import ioff, panhandler, zoom_factory
 
 
 
@@ -66,18 +68,25 @@ for result in results:
     tensor_dataframe["reduced_X"] = [tensor_reduced[i,0].round(8) for i in range(0,len(tensor_reduced))]
     tensor_dataframe["reduced_Y"] = [tensor_reduced[i,1].round(8) for i in range(0,len(tensor_reduced))]
     tensor_dataframe["label"] = cluster_labels
+    
+    def onclick(event):
+        if event.button == 3:  # Botón derecho del mouse
+            global points
+            points.append((event.xdata, event.ydata))
+            if len(points) == 2:
+                fig.canvas.mpl_disconnect(cid)  # Desconectar el evento de clic después de seleccionar dos puntos
+                plt.close()
 
     # Mostrar el gráfico
-    plt.figure(figsize=(20, 16))
-    plt.scatter(tensor_reduced[:, 0], tensor_reduced[:, 1], c=cluster_labels)
+    fig, ax = plt.subplots(figsize=(20, 16))
+    scatter = ax.scatter(tensor_reduced[:, 0], tensor_reduced[:, 1], c=cluster_labels)
     plt.title("Palabras Clusterizadas")
+
     for i, word in enumerate(words):
         plt.text(tensor_reduced[i, 0], tensor_reduced[i, 1], word, ha='center', va='center', fontsize=8)
 
-    # Permitir que el usuario seleccione dos puntos
-    print("Haz click en dos puntos para calcular la correlación lineal.")
-    points = plt.ginput(2)
-
+    # Habilitar el zoom con la rueda del mouse
+    disconnect_zoom = zoom_factory(ax)
     # Ajustar los límites del gráfico para una mejor visualización
     x_margin = (max(tensor_reduced[:, 0]) - min(tensor_reduced[:, 0])) * 0.2
     y_margin = (max(tensor_reduced[:, 1]) - min(tensor_reduced[:, 1])) * 0.2
@@ -86,46 +95,30 @@ for result in results:
 
     # Ajustar la separación entre los puntos
     plt.tight_layout()
-    plt.close()
 
+    # Capturar los puntos seleccionados con el botón derecho del mouse
+    points = []
+    cid = fig.canvas.mpl_connect('button_press_event', onclick)
+
+    # Mostrar el gráfico interactivo
+    plt.show()
+
+    # Obtener las coordenadas seleccionadas
     x1, y1 = nearest_points(tensor_reduced, points[0])
     x1 = round(x1, 8)
     y1 = round(y1, 8)
     x2, y2 = nearest_points(tensor_reduced, points[1])
     x2 = round(x2, 8)
     y2 = round(y2, 8)
-    X=[x1,x2]
-    Y=[y1,y2]
+    X = [x1, x2]
+    Y = [y1, y2]
 
-    word_1 = tensor_dataframe.loc[(tensor_dataframe["reduced_X"]==x1) & (tensor_dataframe["reduced_Y"]==y1)]
-    word_2 = tensor_dataframe.loc[(tensor_dataframe["reduced_X"]==x2) & (tensor_dataframe["reduced_Y"]==y2)]
+    word_1 = tensor_dataframe.loc[(tensor_dataframe["reduced_X"] == x1) & (tensor_dataframe["reduced_Y"] == y1)]
+    word_2 = tensor_dataframe.loc[(tensor_dataframe["reduced_X"] == x2) & (tensor_dataframe["reduced_Y"] == y2)]
     word_1 = word_1["words"].values[0]
     word_2 = word_2["words"].values[0]
-    print([word_1,word_2])
+    print([word_1, word_2])
 
-    # Identificar los clusters a los que pertenecen los puntos seleccionados
-    selected_labels = kmeans.predict([[x1, y1], [x2, y2]])
 
-    # Seleccionar los puntos de los clusters elegidos
-    cluster_points = [tensor_reduced[cluster_labels == label] for label in selected_labels]
-    x = np.concatenate([points[:, 0] for points in cluster_points])
-    y = np.concatenate([points[:, 1] for points in cluster_points])
-
-    # Calcular la correlación lineal entre los dos puntos seleccionados
-    corr = np.corrcoef(x, y)[0, 1]
-    text = f"La correlación lineal entre los puntos seleccionados es: {corr:.2f}"
-
-    # Mostrar el gráfico con los puntos y la correlación lineal
-    plt.figure(figsize=(20, 16))
-    plt.scatter(tensor_reduced[:, 0], tensor_reduced[:, 1], c=cluster_labels)
-    for i, word in enumerate(words):
-        plt.text(tensor_reduced[i, 0], tensor_reduced[i, 1], word, ha='center', va='center', fontsize=8)
-    plt.plot([x1, x2], [y1, y2], "ro-", label="Puntos seleccionados")
-    plt.title("Selección de puntos y correlación lineal")
-    plt.xlabel("Componente Principal 1")
-    plt.ylabel("Componente Principal 2")
-    plt.text(0.05, 0.95, text, transform=plt.gca().transAxes, va="top")
-    plt.legend()
-    plt.show()
 
 #openaiAPI(df["Text"],word_1, word_2)
