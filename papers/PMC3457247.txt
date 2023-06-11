@@ -1,0 +1,39 @@
+Draft Genome Sequence of  Pelosinus fermentans  JBW45, Isolated during  In Situ  Stimulation for Cr(VI) Reduction
+Kara Bowen De León
+a Department of Microbiology, Montana State University, Bozeman, Montana, USA
+b Center for Biofilm Engineering, Montana State University, Bozeman, Montana, USA
+Mary Lynn Young
+b Center for Biofilm Engineering, Montana State University, Bozeman, Montana, USA
+Laura B. Camilleri
+a Department of Microbiology, Montana State University, Bozeman, Montana, USA
+b Center for Biofilm Engineering, Montana State University, Bozeman, Montana, USA
+Steven D. Brown
+c Biosciences Division, Oak Ridge National Laboratory, Oak Ridge, Tennessee, USA
+Jeffrey M. Skerker
+d Physical Biosciences Division, Lawrence Berkeley National Laboratory, Berkeley, California, USA
+Adam M. Deutschbauer
+d Physical Biosciences Division, Lawrence Berkeley National Laboratory, Berkeley, California, USA
+Adam P. Arkin
+d Physical Biosciences Division, Lawrence Berkeley National Laboratory, Berkeley, California, USA
+e Department of Bioengineering, University of California, Berkeley, California, USA
+Matthew W. Fields
+a Department of Microbiology, Montana State University, Bozeman, Montana, USA
+b Center for Biofilm Engineering, Montana State University, Bozeman, Montana, USA
+Abstract
+Pelosinus fermentans  JBW45 is an anaerobic, lactate-fermenting bacterium isolated from Cr(VI)-contaminated groundwater at the Hanford Nuclear Reservation 100-H site (Washington) that was collected after stimulation with a polylactate compound. The genome sequence of this organism will provide insight into the metabolic potential of a predominant population during stimulation for metal-reducing conditions.
+GENOME ANNOUNCEMENT
+The Hanford Nuclear Reservation 100-H site in Eastern Washington is a Cr(VI)-contaminated site designated by the Department of Energy (DOE) as a field study site for bioremediation. A previous injection of hydrogen release compound (HRC) in 2004 resulted in Cr(VI) reduction to below background levels for >3 years ( ,  ). After a second injection (in 2008), enrichments were made with groundwater 24 h after HRC addition from the injection well as part of an ongoing effort to characterize the stimulated microbial populations.  Pelosinus fermentans  JBW45 was isolated in anaerobic LS4D medium  (modified to 2.5 μM resazurin and 130 μM riboflavin in modified Thauer's vitamins stock ), with subsequent dilution to extinction and isolation on LS4D plates. While LS4D is traditionally used to cultivate sulfate-reducing bacteria (SRB), sulfide production decreased and eventually disappeared during the isolation process, and these results suggest that the isolate outcompeted SRB under the tested conditions. This is an important consideration at the field site, where SRB are targeted due to heavy metal reduction capabilities.  Pelosinus  increased in relative abundance during the 2008  in situ  stimulation (K. Bowen De León and M. W. Fields, unpublished data) and also became a predominant member in lab-scale microcosms injected with 100-H groundwater .
+Draft genome sequence data for  P. fermentans  JBW45 were generated using an Illumina  HiSeq2000 instrument from a paired-end DNA library with an approximate insert size of 500 bp. The Illumina sequence data were trimmed for quality (CLC Genomics Workbench version 4.7.1) and assembled with Velvet (version 1.2.01)  into 98 contigs greater than 500 bp (approximately 600× genome coverage). The  N 50  was 155,254 bp, the mean size was 53,854 bp, and the largest contig was 476,917 bp. The estimated draft genome sequence was approximately 5.3 Mb, with a G+C content of 39.3%. The draft genome sequence was annotated at Oak Ridge National Laboratory (ORNL) using an automated annotation pipeline based on the Prodigal gene prediction algorithm . A total of 4,765 candidate protein-coding gene models were predicted, with a gene coding density of 85.9%.
+The small-subunit (SSU) rRNA gene sequence of the isolate has 99% identity to those of  Pelosinus fermentans  strain DSM 17108 (GenBank accession number  ) and  Sporotalea propionica  strains TM1 and DSM 13327 (GenBank accession numbers   and  , respectively). Because of the similarity of the  Pelosinus  and  Sporotalea  SSU rRNA gene sequences and the almost concurrent publications of the isolations, it has been proposed that  Sporotalea  be renamed to  Pelosinus  . Isolate JBW45 has an intervening sequence near the 5′ end of the SSU rRNA gene sequence that is similar to those previously reported in  Pelosinus  species ( ,  ). Furthermore,  Pelosinus fermentans  strains with 99 to 100% SSU rRNA gene similarity have been shown to have differing heavy metal-reducing characteristics . The genome sequence of this organism will provide insight into the metabolic strategies of a predominant population during stimulation for heavy metal reduction and allow for genome-wide comparisons to other  Pelosinus  species.
+
+Nucleotide sequence accession numbers. 
+This whole-genome shotgun project has been deposited at DDBJ/EMBL/GenBank under the accession number  . The version described in this paper is the first version,  . The Illumina data set has been deposited in the National Center for Biotechnology Information (NCBI) Sequence Read Archive (SRA) under accession number  SRA052951 .
+ACKNOWLEDGMENTS
+We thank Sagar M. Utturkar (University of Tennessee) and Miriam L. Land (ORNL) for assistance with assembly and annotation, respectively. This research was conducted by the Ecosystems and Networks Integrated with Genes and Molecular Assemblies (ENIGMA) scientific focus area.
+This research was funded by the U.S. Department of Energy Office of Biological and Environmental Research Division under contract no.  DE-AC02-05CH11231  to Lawrence Berkeley National Laboratory. K. Bowen De León was supported by the Montana State University Molecular Biosciences Program. K. Bowen De León and L. Camilleri were supported by the NSF-IGERT Program in Geobiological Systems ( DGE0654336 ) at Montana State University.
+Oak Ridge National Laboratory is managed by UT-Battelle, LLC, for the U.S. Department of Energy under contract no. DE-AC05-00OR22725.
+REFERENCES
+Other Formats
+Actions
+Share
+RESOURCES

@@ -1,0 +1,101 @@
+Association between pica and gastrointestinal symptoms in preschoolers with and without autism spectrum disorder: Study to Explore Early Development
+Victoria L. Fields
+a Epidemic Intelligence Service Officer, Centers for Disease Control and Prevention, USA
+b National Center on Birth Defects and Developmental Disabilities, Centers for Disease Control and Prevention, Atlanta, GA, USA
+Gnakub N. Soke
+b National Center on Birth Defects and Developmental Disabilities, Centers for Disease Control and Prevention, Atlanta, GA, USA
+Ann Reynolds
+c Department of Pediatrics, School of Medicine, University of Colorado Anschutz Medical Campus, Aurora, CO, USA
+Lin H. Tian
+b National Center on Birth Defects and Developmental Disabilities, Centers for Disease Control and Prevention, Atlanta, GA, USA
+Lisa Wiggins
+b National Center on Birth Defects and Developmental Disabilities, Centers for Disease Control and Prevention, Atlanta, GA, USA
+Matthew Maenner
+b National Center on Birth Defects and Developmental Disabilities, Centers for Disease Control and Prevention, Atlanta, GA, USA
+Carolyn DiGuiseppi
+d Department of Epidemiology, Colorado School of Public Health, University of Colorado Anschutz Medical Campus, Aurora, CO, USA
+Tanja V.E. Kral
+e School of Nursing and Perelman School of Medicine, Department of Biobehavioral Health Sciences, University of Pennsylvania, Philadelphia, PA, USA
+Kristina Hightshoe
+f Department of Psychiatry, School of Medicine, University of Colorado Anschutz Medical Campus, Aurora, Colorado, USA
+Christine Ladd-Acosta
+g Johns Hopkins Bloomberg School of Public Health, Baltimore, MD, USA
+Laura A. Schieve
+b National Center on Birth Defects and Developmental Disabilities, Centers for Disease Control and Prevention, Atlanta, GA, USA
+Author contributions
+Victoria Fields conducted statistical analyses, drafted the initial manuscript and revised the manuscript.
+Lin Tian verified statistical analyses and reviewed and revised the manuscript.
+Carolyn DiGuiseppi, Ann Reynolds, and Laura Schieve helped design the Study to Explore Early Development and reviewed and revised the manuscript.
+Gnakub Soke, Lisa Wiggins, Tanja Kral, Kristina Hightshoe, and Christine Ladd-Acosta reviewed and revised the manuscript.
+Associated Data
+Abstract
+Background:
+Pica, the repeated ingestion of nonfood items, can result in gastrointestinal (GI) outcomes. Children with autism spectrum disorder (ASD) and other developmental disabilities (DDS) are disproportionately affected by both pica and GI symptoms. Study of the inter-relationship between pica, GI symptoms, and ASD/DD is limited.
+Objective/Hypothesis:
+We assessed associations between pica and GI symptoms in preschool-aged children with and without ASD and other (non-ASD) DDS in the Study to Explore Early Development.
+Methods:
+Our sample included children with ASD (n = 1244), other DDS (n = 1593), and population (POP) controls (n = 1487). Data to define final case-control status, pica, and GI symptoms were from standardized developmental assessments/questionnaires. Prevalence ratios, adjusted for sociodemographic factors (aPRs), and 95% confidence intervals were derived from modified Poisson regression.
+Results:
+Within each group (ASD, DD, POP) and for the total sample, pica was associated with vomiting (aPR for total sample 2.6 [1.7, 4.01), diarrhea (1.8 [1.4, 2.21), and loose stools (1.8 [1.4, 2.21). In the DD group, pica was associated with constipation (1.4 [1.03, 1.91) and pain on stooling (1.8 [1.2, 2.61). In analyses of the subgroup without pica, increases in GI symptoms were still evident in the ASD and DD groups compared to POP group.
+Conclusion:
+These findings highlight an important adverse effect of pica, GI symptoms, in children with and without ASD and DDs; nonetheless, pica does not fully explain the increased risk for GI symptoms among children with ASD and DDS. These findings inform the specialized healthcare needs of children with ASD and other DDS.
+Introduction
+Pica, the repeated ingestion of nonfood non-nutritious items, is a serious condition that can lead to adverse medical consequences, including gastrointestinal (GI) outcomes such as parasites, nutritional deficiencies, and obstructions. , , ,  Case reports describe individuals with developmental disabilities (DDS) and pica having subsequent GI symptoms such as vomiting, weight loss, and abdominal pain requiring clinical intervention. , ,
+Pica prevalence has been found to be higher in children and adults with DDS, including autism spectrum disorder (ASD) and/or intellectual disability (ID) than in the general population. , , , , ,  Most recently, we analyzed a large population-based sample of preschool-aged children from the Study to Explore Early Development (SEED) and reported that pica prevalence was 9.7%—28.1% in children with ASD, ASD characteristics, and/or ID, which were all significantly higher than the pica prevalence of 3.5% in preschool-aged children sampled from the general population (POP controls).  Associations between pica and ASD and ID remained significant after adjustment for sociodemographic factors with adjusted prevalence ratios (aPRs) ranging from 1.9 to 8.0 for various subsets of children with ASD diagnoses, ASD characteristics without a diagnosis, and/or ID.
+Several studies have also found that GI symptoms and disorders occur more frequently in children with ASD and other DDS. , ,  Prevalence estimates of GI symptoms in persons with ASD have varied widely across studies depending on sampling methods, population characteristics and measurement and definition of GI symptoms.  A previous study using data from the first phase of SEED, which ascertained GI symptoms, such as vomiting, diarrhea, and constipation, through parent-report, found that children with ASD were over 3 times more likely to have GI symptoms (34.6%) than children in the general population (POP) group, (12.0%); children with other DD types were nearly 2 times more likely to have GI symptoms (22.2%) than children in the POP group.
+The interplay between pica and GI symptoms among children with ASD or other DDS has not been assessed in large epidemiologic studies. We examined an expanded sample from SEED, which has now completed two data collection phases, to assess associations between pica and common GI symptoms in preschoolers with and without ASD and other (non-ASD) DDS.
+Methods
+Study design and data collection
+Two phases of SEED data collection have been completed (2007–2012 and 2012–2016) in six study sites (California, Colorado, Georgia, Maryland, North Carolina, and Pennsylvania) following a common protocol.  Children eligible for SEED were aged 2–5 years at the time of study enrollment, lived in the respective site’s study area both at birth and at study enrollment, and lived with a caregiver since at least 6 months of age who could provide legal consent and communicate in English (all sites) or Spanish (two sites). SEED included three study groups: children with ASD, children with (non-ASD) DDS, and children from the general population (POP). Children with ASD and other DDS were recruited from multiple clinics and schools at each site. POP controls were recruited from randomly-selected birth records at each site.
+Upon enrollment, caregivers completed the Social Communication Questionnaire (SCQ)  to screen for child ASD symptoms. Children with SCQ scores ≥11 and/or a previous ASD diagnosis or special education classification underwent in-depth developmental assessments including the Autism Diagnostic Observation Schedule (ADOS)  and their caregivers completed the Autism Diagnostic Interview–Revised (ADI-R).  Final ASD classification was determined by ADOS and ADI-R scores.  Caregivers also completed structured telephone interviews and self-administered forms assessing sociodemographic characteristics and child health conditions and behaviors. Pica was ascertained from the Child Behavior Checklist (CBCL),  a standardized parent-administered form used to assess problem behaviors. We considered a child to have pica if the caregiver responded, “somewhat or sometimes true” or “very true or often true” to the item  child eats or drinks things that are not food  –  not including sweets . Child GI symptoms were ascertained from parent-administered health-history forms. Symptoms included vomiting, diarrhea, loose stools, constipation, and/or pain on stooling. Each symptom was coded as a binary variable based on whether the parent reported the child had two or more occurrences of a given symptom per month.
+This study was approved by Institutional Review Boards (IRB) at the Centers for Disease Control and Prevention (CDC) and by participating sites. Written informed consent was obtained for each participant.
+Data analysis
+We assessed the prevalence of GI symptoms in children with and without pica and used modified Poisson regression  to examine the association between pica and GI symptoms controlling for study phase, child sex, child age, maternal race/ethnicity, maternal education, maternal age at enrollment, and household income. We conducted all analyses separately by study group (ASD, DD, and POP) and for the three study groups combined. For the combined analyses, we additionally controlled for study group.
+Given the findings of a previous analysis of SEED data documenting associations between ASD and GI symptoms  we carried out supplemental analyses to assess whether ASD and/or DD were associated with GI symptoms in the absence of pica. Among children without pica, we calculated adjusted prevalence ratios (aPRs) and 95% confidence intervals (CIS) using modified Poisson regression in which we evaluated the association between GI symptoms among children with ASD and DD compared to GI symptoms among children in the POP group. Adjustment factors were the same as in the main analysis.
+Results
+Overall, 4935 children in the ASD, DD, and POP groups were considered for this analysis. We excluded children missing data on pica (n = 196) and GI symptoms (n = 415). Our final sample included 4324 children: 1244 with ASD, 1593 with DD, and 1487 in the POP group. One or more GI symptoms were reported for 549 (43.1%) children with ASD, 438 (27.4%) children with other DDS, and 253 (17.0%) children in the POP group. Pica was reported for 282 (22.7%), 132 (8.3%), and 50 (3.4%) children in the ASD, DD, and POP groups, respectively.
+In all study groups, the highest proportion of mothers were non-Hispanic White, 35 years or older, had a bachelor’s degree or higher and had a household income over $50,000. Over 70% of children in all groups were 48 months of age or older. ASD and DD group children were more likely to be male (82.0% and 67.2%) than POP group children (53.2%), p-value <0.05 .
+Table 1
+Descriptive characteristics of the study population.
+Abbreviations: POP, population control group; ASD, autism spectrum disorder; DD, developmental disability.
+Within all study groups, children with pica had a higher prevalence of vomiting, diarrhea, and loose stools than children without pica . In the DD group only, children with pica had significantly more pain on stooling and constipation than those without pica.
+Table 2
+Prevalence of gastrointestinal (GI) symptoms among children aged 2–5 years by study group with and without pica. a
+Abbreviations: ASD, autism spectrum disorder; DD, developmental disability; POP, population control group.
+p-value **<0.01 and
+p-value *<0.05 derived from a chi-square test in which ASD study group with pica was compared to ASD study group without pica, DD study group with pica was compared to DD group without pica, and POP group with pica was compared to POP group without pica.
+In multivariable analyses, pica was associated with vomiting, diarrhea, and loose stools in each study group with adjusted prevalence ratios ranging from 1.4 to 4.7; however, the pica-loose stools association in the POP group approached but did not reach statistical significance . For the total sample (i.e. combined study groups), pica was associated with vomiting (aPR = 2.6), diarrhea (aPR = 1.8), and loose stools (aPR = 1.8). In the DD group only, pica was marginally associated with constipation (aPR = 1.4) and likewise was associated with pain on stooling (aPR 1.8).
+Table 3
+Associations between pica and gastrointestinal (GI) symptoms among children aged 2–5 years by study group.
+Abbreviations: ASD, autism spectrum disorder; DD, developmental disability; POP, population control group; aPR, adjusted prevalence ratio; CI, confidence interval.
+Despite associations across study groups between pica and several GI symptoms, pica did not entirely explain the known disparity in GI symptom prevalence between children in the ASD or DD groups versus POP group. In the absence of pica, we observed positive associations between ASD (versus POP) and each of the five GI symptoms included in this analysis . We observed similar associations between DD (versus POP) and GI symptoms. Small sample sizes precluded us from assessing associations between ASD and DD and GI symptoms among the stratum of children with pica.
+Discussion
+To our knowledge this is the first study of its kind (i.e. large population-based sample with standardized data collection) to examine associations between pica and GI symptoms in children with and without ASD and other DDS. We found that within each study group pica was associated with vomiting, diarrhea and loose stools. Nonetheless, in the absence of pica, children with ASD and DD still had a notably higher prevalence of all GI symptoms evaluated in comparison to POP group children. Thus, while pica might be an important contributor to GI symptoms, it does not appear to fully explain the increased risk for GI symptoms among children with ASD and other DDS.
+There are many possible etiologies for increased GI symptoms in children with ASD. Some possible causes include having a more restrictive diet with poor fiber intake  food allergy and intolerance,  and feeding problems associated with GI and intestinal microbiota change.
+Additionally, previous studies of children with ASD have reported associations between GI symptoms and other developmental issues including sleep problems, ,  sensory over-responsivity,  internalizing and externalizing symptoms and behaviors, , ,  self-injurious behavior,  and developmental characteristics central to ASD including regression  and stereotyped repetitive behaviors.
+Our findings support case reports documenting that children and adults who engage in pica are at increased risk for GI symptoms. , , ,  As noted by Rashid, Davies, and Iftikhar  it may be important for healthcare providers to assess pica in any youth with developmental disorders when non-specific GI symptoms occur (e.g., vomiting) because of communication problems associated with ASD and some other disabilities and the variability of pica clinical presentations. ,  Potential causes for pica in children with ASD include atypical eating behaviors, such as limited food preferences and hypersensitivity to food textures, sensory processing difficulties resulting in both atypical eating and pica behavior, and challenges understanding the difference between edible and inedible objects. , ,
+Strengths of this study include standardized classification of the ASD group using objective developmental data in a large epidemiologic study that includes a control group selected from the general population consisting largely of typically developing children. Data on GI symptoms were collected consistently from parents, allowing us to look at the relationship between pica and GI symptoms in children with ASD, other DDS, and from the general population.
+This study also has limitations. Data on pica and GI symptoms are cross-sectional and cannot demonstrate a temporal association. The cross-sectional nature of the data also limited us from exploring potential covariates in the causal pathway of pica and GI symptoms including internalizing and externalizing behaviors, and sleep disturbances. Additionally, due to small sample sizes, we were not able to further subdivide our sample of children in the ASD, DD, and POP groups into more refined subgroups based on ID. These data from six study sites across the US may not be generalizable to other populations. Finally, our assessment was limited to parent-report of common GI symptoms. However, the prevalence of the GI symptoms we evaluated were similar to those reported in a previous study of children with ASD that assessed GI symptoms using parental report 12 suggesting reliability of parent-reported GI symptoms. Despite these limitations, this study provides foundational knowledge on the prevalence of pica and its relationship to gastrointestinal symptoms in children and specifically children with ASD and other DDS, groups previously shown to have increased risks for GI symptoms.
+Conclusion
+These results highlight the adverse effects of pica in all children. Because children with ASD or other DDS have higher risks for both pica and GI symptoms than typically developing children , , , , , , , ,  these findings may be informative for healthcare providers caring for children with ASD and other DDS.
+Supplementary Material
+Supp Tables
+Acknowledgment
+We thank the SEED Data Coordinating Center team at the Clinical and Translational Sciences Institute of Michigan State University for their support throughout this study.
+Funding
+This study was supported by six cooperative agreements from the Centers for Disease Control and Prevention: Cooperative Agreement Number U10DD000180, Colorado Department of Public Health; Cooperative Agreement Number U10DD000181, Kaiser Foundation Research Institute (CA); Cooperative Agreement Number U10DD000182, University of Pennsylvania; Cooperative Agreement Number U10DD000183, Johns Hopkins University; Cooperative Agreement Number U10DD000184, University of North Carolina at Chapel Hill; and Cooperative Agreement Number U10DD000498, Michigan State University.
+Footnotes
+Declaration of competing interest The authors have no financial relationships and no conflicts of interest relevant to this article to disclose.
+Declaration of competing interest
+The authors have no financial relationships and no conflicts of interest relevant to this article to disclose.
+Disclaimer The findings and conclusions in this paper are those of the authors and do not necessarily represent the official position of the Centers of Disease Control and Prevention.
+Disclaimer
+The findings and conclusions in this paper are those of the authors and do not necessarily represent the official position of the Centers of Disease Control and Prevention.
+Appendix A. Supplementary data  to this article can be found online at  .
+Appendix A. Supplementary data
+ to this article can be found online at  .
+References
+Other Formats
+Actions
+Share
+RESOURCES

@@ -1,0 +1,93 @@
+High-Quality Draft Genome Sequence of  Desulfovibrio carbinoliphilus  FW-101-2B, an Organic Acid-Oxidizing Sulfate-Reducing Bacterium Isolated from Uranium(VI)-Contaminated Groundwater
+Bradley D. Ramsay
+a Center for Biofilm Engineering, Montana State University, Bozeman, Montana, USA
+Chiachi Hwang
+a Center for Biofilm Engineering, Montana State University, Bozeman, Montana, USA
+Hannah L. Woo
+b Department of Civil and Environmental Engineering, The University of Tennessee, Knoxville, Tennessee, USA
+Sue L. Carroll
+c Environmental Sciences Division, Oak Ridge National Laboratory, Oak Ridge, Tennessee, USA
+Susan Lucas
+d Department of Energy Joint Genome Institute, Walnut Creek, California, USA
+James Han
+d Department of Energy Joint Genome Institute, Walnut Creek, California, USA
+Alla L. Lapidus
+d Department of Energy Joint Genome Institute, Walnut Creek, California, USA
+Jan-Fang Cheng
+d Department of Energy Joint Genome Institute, Walnut Creek, California, USA
+Lynne A. Goodwin
+d Department of Energy Joint Genome Institute, Walnut Creek, California, USA
+Samuel Pitluck
+d Department of Energy Joint Genome Institute, Walnut Creek, California, USA
+Lin Peters
+d Department of Energy Joint Genome Institute, Walnut Creek, California, USA
+Olga Chertkov
+d Department of Energy Joint Genome Institute, Walnut Creek, California, USA
+Brittany Held
+d Department of Energy Joint Genome Institute, Walnut Creek, California, USA
+John C. Detter
+d Department of Energy Joint Genome Institute, Walnut Creek, California, USA
+Cliff S. Han
+d Department of Energy Joint Genome Institute, Walnut Creek, California, USA
+Roxanne Tapia
+d Department of Energy Joint Genome Institute, Walnut Creek, California, USA
+Miriam L. Land
+d Department of Energy Joint Genome Institute, Walnut Creek, California, USA
+Loren J. Hauser
+d Department of Energy Joint Genome Institute, Walnut Creek, California, USA
+Nikos C. Kyrpides
+d Department of Energy Joint Genome Institute, Walnut Creek, California, USA
+Natalia N. Ivanova
+d Department of Energy Joint Genome Institute, Walnut Creek, California, USA
+Natalia Mikhailova
+d Department of Energy Joint Genome Institute, Walnut Creek, California, USA
+Ioanna Pagani
+d Department of Energy Joint Genome Institute, Walnut Creek, California, USA
+Tanja Woyke
+d Department of Energy Joint Genome Institute, Walnut Creek, California, USA
+Adam P. Arkin
+e Physical Biosciences Division, Lawrence Berkeley National Laboratory, Berkeley, California, USA
+f ENIGMA, Lawrence Berkeley National Laboratory, Berkeley, California, USA
+Paramvir Dehal
+e Physical Biosciences Division, Lawrence Berkeley National Laboratory, Berkeley, California, USA
+f ENIGMA, Lawrence Berkeley National Laboratory, Berkeley, California, USA
+Dylan Chivian
+e Physical Biosciences Division, Lawrence Berkeley National Laboratory, Berkeley, California, USA
+f ENIGMA, Lawrence Berkeley National Laboratory, Berkeley, California, USA
+Craig S. Criddle
+g Department of Civil and Environmental Engineering, Stanford University, Stanford, California, USA
+Weimin Wu
+g Department of Civil and Environmental Engineering, Stanford University, Stanford, California, USA
+Romy Chakraborty
+f ENIGMA, Lawrence Berkeley National Laboratory, Berkeley, California, USA
+h Earth Sciences Division, Lawrence Berkeley National Laboratory, Berkeley, California, USA
+Terry C. Hazen
+b Department of Civil and Environmental Engineering, The University of Tennessee, Knoxville, Tennessee, USA
+f ENIGMA, Lawrence Berkeley National Laboratory, Berkeley, California, USA
+i Department of Microbiology, The University of Tennessee, Knoxville, Tennessee, USA
+j Department of Earth & Planetary Sciences, The University of Tennessee, Knoxville, Tennessee, USA
+Matthew W. Fields
+a Center for Biofilm Engineering, Montana State University, Bozeman, Montana, USA
+f ENIGMA, Lawrence Berkeley National Laboratory, Berkeley, California, USA
+k Department of Microbiology & Immunology, Montana State University, Bozeman, Montana, USA
+Abstract
+Desulfovibrio carbinoliphilus  subsp.  oakridgensis  FW-101-2B is an anaerobic, organic acid/alcohol-oxidizing, sulfate-reducing δ-proteobacterium. FW-101-2B was isolated from contaminated groundwater at The Field Research Center at Oak Ridge National Lab after  in situ  stimulation for heavy metal-reducing conditions. The genome will help elucidate the metabolic potential of sulfate-reducing bacteria during uranium reduction.
+GENOME ANNOUNCEMENT
+Desulfovibrio carbinoliphilus  subsp.  oakridgensis  FW-101-2B was isolated from groundwater of well FW-101 at The Field Research Center (FRC) at Oak Ridge National Lab (ORNL). The FRC is part of the Y-12 security complex, located in the Bear Creek drainage. ICP-MS analysis of FW-101 groundwater in late 2001 estimated uranium concentrations between 20 and 250 ppm, and chromium concentrations between 35 and 85 ppm. Previous studies have demonstrated reduction of nitrate and uranium levels in the subsurface upon bio-stimulation with ethanol at the FRC ( , ). During bio-stimulation, an increase was observed in DNA sequences corresponding to sulfate-reducing bacteria. Groundwater from well FW-101 at the FRC site was collected during the uranium-reduction phase of a previously described biostimulation experiment  and used as inoculum for an enrichment culture for sulfate-reducing bacteria. The enrichment was grown at room temperature anaerobically in ES4D medium (pH 6.7). The ES4D medium has the same ingredients as a previously described medium, LS4D, except ethanol replaced the lactate .
+The genome was sequenced by 454 GS FLX Titanium and paired-end Illumina GAii (2 × 35 bp). The pyrosequencing and Illumina reads were assembled using the Newbler (Roche) and Velvet , respectively. Phred/Phrap/Consed  was used for genome finishing. Genes were identified using Prodigal  and used to search the National Center for Biotechnology Information (NCBI) nonredundant database, UniProt, TIGRFam, Pfam, PRIAM, KEGG, COG, and InterPro databases. Additional annotation was performed within the (IMG-ER) platform .
+Sequence determination revealed a 4.1-Mb genome with 66.5% G+C content, which is comparable to  D. carbinoliphilus  (63% G+C) and  Desulfovibrio vulgaris  (63.3% G+C). The COG predictions categorize 581 of the 3,737 protein-encoding genes as pertaining to information storage and processing, 1,183 as cellular processes, 1,576 as metabolism genes, and 596 as poorly characterized functions. Sequencing detected 2 plasmids of different sizes and G+C content, pFW10101 (97,864 bp, 67% G+C) and pFW10102 (21,111 bp, 57.5% G+C).
+FW-101-2B was most closely related to  D. carbinoliphilus  D41 T . The ANIb values calculated by JSpecies  showed that FW-101-2B was more similar to  D. vulgaris  Miyazaki (69.11%),  D. vulgaris  Hildenborough (67.45%), and  D. vulgaris  DP4 (67.41%) than  Syntrophobacter fumaroxidans  (64.68) and  Desulfovibrio desulfuricans  ATCC 27774 (60.93%). The small-subunit (SSU) rRNA gene and sulfite reductase gene ( dsrAB ) of FW-101-2B was most similar to  D. carbinoliphilus  D41 T  at 99% and 92% similarity, respectively.
+Although FW-101-2B is phylogenetically very similar to  D. carbinoliphilus  D41 T , physiological evidence would support classification of a new strain. Thus, we propose the classification as  D. carbinoliphilus  subsp.  oakridgensis . This is the first genome sequence of a  D. carbinoliphilus  strain.
+
+Nucleotide sequence accession numbers. 
+The whole-genome shotgun project has been deposited at DDBJ/EMBL/GenBank under the accession no.  . The version described in this paper is the version  .
+ACKNOWLEDGMENTS
+Work conducted by ENIGMA (Ecosystems and Networks Integrated with Genes and Molecular Assemblies) is supported by the Office of Science, Office of Biological and Environmental Research, U.S. Department of Energy contract DE-AC02-05CH11231. The work at Lawrence Livermore National Laboratory was supported under contract DE-AC52-07NA27344, and work at Los Alamos National Laboratory was supported under contract DE-AC02-06NA25396.
+Footnotes
+Citation  Ramsay BD, Hwang C, Woo HL, Carroll SL, Lucas S, Han J, Lapidus AL, Cheng J-F, Goodwin LA, Pitluck S, Peters L, Chertkov O, Held B, Detter JC, Han CS, Tapia R, Land ML, Hauser LJ, Kyrpides NC, Ivanova NN, Mikhailova N, Pagani I, Woyke T, Arkin AP, Dehal P, Chivian D, Criddle CS, Wu W, Chakraborty R, Hazen TC, Fields MW. 2015. High-quality draft genome sequence of  Desulfovibrio carbinoliphilus  FW-101-2B, an organic acid-oxidizing sulfate-reducing bacterium isolated from uranium(VI)-contaminated groundwater. Genome Announc 3(2):e00092-15. doi:10.1128/genomeA.00092-15.
+Citation  Ramsay BD, Hwang C, Woo HL, Carroll SL, Lucas S, Han J, Lapidus AL, Cheng J-F, Goodwin LA, Pitluck S, Peters L, Chertkov O, Held B, Detter JC, Han CS, Tapia R, Land ML, Hauser LJ, Kyrpides NC, Ivanova NN, Mikhailova N, Pagani I, Woyke T, Arkin AP, Dehal P, Chivian D, Criddle CS, Wu W, Chakraborty R, Hazen TC, Fields MW. 2015. High-quality draft genome sequence of  Desulfovibrio carbinoliphilus  FW-101-2B, an organic acid-oxidizing sulfate-reducing bacterium isolated from uranium(VI)-contaminated groundwater. Genome Announc 3(2):e00092-15. doi:10.1128/genomeA.00092-15.
+REFERENCES
+Other Formats
+Actions
+Share
+RESOURCES
