@@ -13,26 +13,23 @@ from model import *
 from functions import *
 from plot import *
 from cluster import *
-from GPTAPI import openaiAPI
-
-
+#from GPTAPI import openaiAPI
+import mplcursors
+from mpl_interactions import ioff, panhandler, zoom_factory
 
 import logging
+
 logging.getLogger("transformers").setLevel(logging.ERROR)
 
-df = get_file_content("papers", 1)
+df = get_file_content("papers", 2)
 
-#Obtener palabras claves
+# Obtener palabras claves
 
-#Transformar palabras en vectores
-
-# CICLO
-# CICLO
-# CICLO
+# Transformar palabras en vectores
 results = []
 for text in df['Text']:
-    words=NER(text)
-    #Transformar palabras en vectores
+    words = NER(text)
+    # Transformar palabras en vectores
     tensor_list = []
     for i in range(0, len(words)):
         tensor = embed_text(words[i], model, tokenizer).mean(1)
@@ -51,81 +48,82 @@ for text in df['Text']:
 print('\n\n 1   ----------------------  results definidos\n')
 
 # Procesar cada resultado
+all_words = []
+all_tensor_list = []
+all_X = []
 for result in results:
     words = result['words']
     tensor_list = result['tensor_list']
     X = result['X']
 
-    # Parte de Gráficar los Clusters
-    tensor_reduced, cluster_labels, kmeans= clustering(X=X)
+    all_words.extend(words)
+    all_tensor_list.extend(tensor_list)
+    all_X.extend(X)
 
-    # Definimos el dataframe
-    tensor_dataframe= pd.DataFrame()
-    tensor_dataframe["words"] = words
-    tensor_dataframe["tensor"] = tensor_list
-    tensor_dataframe["reduced_X"] = [tensor_reduced[i,0].round(8) for i in range(0,len(tensor_reduced))]
-    tensor_dataframe["reduced_Y"] = [tensor_reduced[i,1].round(8) for i in range(0,len(tensor_reduced))]
-    tensor_dataframe["label"] = cluster_labels
+# Parte de Gráficar los Clusters
+tensor_reduced, cluster_labels, kmeans = clustering(X=np.array(all_X))
 
-    # Mostrar el gráfico
-    plt.figure(figsize=(20, 16))
-    plt.scatter(tensor_reduced[:, 0], tensor_reduced[:, 1], c=cluster_labels)
-    plt.title("Palabras Clusterizadas")
-    for i, word in enumerate(words):
-        plt.text(tensor_reduced[i, 0], tensor_reduced[i, 1], word, ha='center', va='center', fontsize=8)
+# Definimos el dataframe
+tensor_dataframe = pd.DataFrame()
+tensor_dataframe["words"] = all_words
+tensor_dataframe["tensor"] = all_tensor_list
+tensor_dataframe["reduced_X"] = [tensor_reduced[i, 0].round(8) for i in range(0, len(tensor_reduced))]
+tensor_dataframe["reduced_Y"] = [tensor_reduced[i, 1].round(8) for i in range(0, len(tensor_reduced))]
+tensor_dataframe["label"] = cluster_labels
 
-    # Permitir que el usuario seleccione dos puntos
-    print("Haz click en dos puntos para calcular la correlación lineal.")
-    points = plt.ginput(2)
+def onclick(event):
+    if event.button == 3:  # Botón derecho del mouse
+        global points
+        points.append((event.xdata, event.ydata))
+        # Agregar marcas en los puntos seleccionados
+        selected_points = np.array(points)
+        plt.scatter(selected_points[:, 0], selected_points[:, 1], color='red', marker='.', s=50)
+        plt.draw()  # Actualizar el gráfico
+        if len(points) == 2:
+            fig.canvas.mpl_disconnect(cid)  # Desconectar el evento de clic después de seleccionar dos puntos
+            plt.close()  # Cerrar el gráfico
 
-    # Ajustar los límites del gráfico para una mejor visualización
-    x_margin = (max(tensor_reduced[:, 0]) - min(tensor_reduced[:, 0])) * 0.2
-    y_margin = (max(tensor_reduced[:, 1]) - min(tensor_reduced[:, 1])) * 0.2
-    plt.xlim(min(tensor_reduced[:, 0]) - x_margin, max(tensor_reduced[:, 0]) + x_margin)
-    plt.ylim(min(tensor_reduced[:, 1]) - y_margin, max(tensor_reduced[:, 1]) + y_margin)
 
-    # Ajustar la separación entre los puntos
-    plt.tight_layout()
-    plt.close()
+# Mostrar el gráfico
+fig, ax = plt.subplots(figsize=(20, 16))
+scatter = ax.scatter(tensor_reduced[:, 0], tensor_reduced[:, 1], c=cluster_labels)
+plt.title("Palabras Clusterizadas")
 
-    x1, y1 = nearest_points(tensor_reduced, points[0])
-    x1 = round(x1, 8)
-    y1 = round(y1, 8)
-    x2, y2 = nearest_points(tensor_reduced, points[1])
-    x2 = round(x2, 8)
-    y2 = round(y2, 8)
-    X=[x1,x2]
-    Y=[y1,y2]
+for i, word in enumerate(all_words):
+    plt.text(tensor_reduced[i, 0], tensor_reduced[i, 1], word, ha='center', va='center', fontsize=8)
 
-    word_1 = tensor_dataframe.loc[(tensor_dataframe["reduced_X"]==x1) & (tensor_dataframe["reduced_Y"]==y1)]
-    word_2 = tensor_dataframe.loc[(tensor_dataframe["reduced_X"]==x2) & (tensor_dataframe["reduced_Y"]==y2)]
-    word_1 = word_1["words"].values[0]
-    word_2 = word_2["words"].values[0]
-    print([word_1,word_2])
+# Habilitar el zoom con la rueda del mouse
+disconnect_zoom = zoom_factory(ax)
+# Ajustar los límites del gráfico para una mejor visualización
+x_margin = (max(tensor_reduced[:, 0]) - min(tensor_reduced[:, 0])) * 0.2
+y_margin = (max(tensor_reduced[:, 1]) - min(tensor_reduced[:, 1])) * 0.2
+plt.xlim(min(tensor_reduced[:, 0]) - x_margin, max(tensor_reduced[:, 0]) + x_margin)
+plt.ylim(min(tensor_reduced[:, 1]) - y_margin, max(tensor_reduced[:, 1]) + y_margin)
 
-    # Identificar los clusters a los que pertenecen los puntos seleccionados
-    selected_labels = kmeans.predict([[x1, y1], [x2, y2]])
+# Ajustar la separación entre los puntos
+plt.tight_layout()
 
-    # Seleccionar los puntos de los clusters elegidos
-    cluster_points = [tensor_reduced[cluster_labels == label] for label in selected_labels]
-    x = np.concatenate([points[:, 0] for points in cluster_points])
-    y = np.concatenate([points[:, 1] for points in cluster_points])
+# Capturar los puntos seleccionados con el botón derecho del mouse
+points = []
+cid = fig.canvas.mpl_connect('button_press_event', onclick)
 
-    # Calcular la correlación lineal entre los dos puntos seleccionados
-    corr = np.corrcoef(x, y)[0, 1]
-    text = f"La correlación lineal entre los puntos seleccionados es: {corr:.2f}"
+# Mostrar el gráfico interactivo
+plt.show()
 
-    # Mostrar el gráfico con los puntos y la correlación lineal
-    plt.figure(figsize=(20, 16))
-    plt.scatter(tensor_reduced[:, 0], tensor_reduced[:, 1], c=cluster_labels)
-    for i, word in enumerate(words):
-        plt.text(tensor_reduced[i, 0], tensor_reduced[i, 1], word, ha='center', va='center', fontsize=8)
-    plt.plot([x1, x2], [y1, y2], "ro-", label="Puntos seleccionados")
-    plt.title("Selección de puntos y correlación lineal")
-    plt.xlabel("Componente Principal 1")
-    plt.ylabel("Componente Principal 2")
-    plt.text(0.05, 0.95, text, transform=plt.gca().transAxes, va="top")
-    plt.legend()
-    plt.show()
+# Obtener las coordenadas seleccionadas
+x1, y1 = nearest_points(tensor_reduced, points[0])
+x1 = round(x1, 8)
+y1 = round(y1, 8)
+x2, y2 = nearest_points(tensor_reduced, points[1])
+x2 = round(x2, 8)
+y2 = round(y2, 8)
+X = [x1, x2]
+Y = [y1, y2]
 
-#openaiAPI(df["Text"],word_1, word_2)
+word_1 = tensor_dataframe.loc[(tensor_dataframe["reduced_X"] == x1) & (tensor_dataframe["reduced_Y"] == y1)]
+word_2 = tensor_dataframe.loc[(tensor_dataframe["reduced_X"] == x2) & (tensor_dataframe["reduced_Y"] == y2)]
+word_1 = word_1["words"].values[0]
+word_2 = word_2["words"].values[0]
+print([word_1, word_2])
+
+# openaiAPI(df["Text"], word_1, word_2)
