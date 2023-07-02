@@ -16,8 +16,10 @@ from cluster import *
 #from GPTAPI import openaiAPI
 import mplcursors
 from mpl_interactions import ioff, panhandler, zoom_factory
-
 import logging
+from scrap04 import *
+
+scrapper("%5BAll+Fields%5D",2)
 
 logging.getLogger("transformers").setLevel(logging.ERROR)
 
