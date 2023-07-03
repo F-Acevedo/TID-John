@@ -7,6 +7,9 @@ from langchain.chains.question_answering import load_qa_chain
 import pinecone
 import glob
 
+
+''' ### Cargar datos a pinecone
+
 ### Extraer papers 
 file_list = glob.glob('papers/*.txt')
 documentos = []
@@ -24,26 +27,24 @@ for documento in documentos:
     chonks = text_splitter.split_documents(documento)
     documentos_chunks.extend(chonks)
 
-### Conecto a OpenAI para embeddings y a Pinecone para Vectores
-embeddings = OpenAIEmbeddings(
-    openai_api_key='APIKEY')
+### Subir datos
+#docsearch = Pinecone.from_texts([t.page_content for t in documentos_chunks], embeddings, index_name=index_name)
+'''
 
+
+### Conectarse con los datos ya existentes en Pinecone
 pinecone.init(
     api_key = '4f58d18b-75ff-4404-94bc-832bf24c45d1',
     environment = 'asia-southeast1-gcp-free'
 )
 index_name = 'tid'
-
-### Para cargar los datos a pinecone
-#docsearch = Pinecone.from_texts([t.page_content for t in documentos_chunks], embeddings, index_name=index_name)
-
-### Para conectarse con los datos ya existentes en Pinecone
+embeddings = OpenAIEmbeddings(openai_api_key='OPENAI_APIKEY')
 docsearch1 = Pinecone.from_existing_index(index_name, embeddings)
 
 ### OpenAI LLM + LangChain para el QA
 llm = OpenAI(
     temperature = 0,
-    openai_api_key = 'APIKEY',
+    openai_api_key = 'OPENAI_APIKEY',
     )
 chain = load_qa_chain(llm, chain_type="stuff")
 
