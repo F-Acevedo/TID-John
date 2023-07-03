@@ -18,15 +18,13 @@ import mplcursors
 from mpl_interactions import ioff, panhandler, zoom_factory
 import logging
 from scrap04 import *
-
+from Entorno import *
+#Llamamos a función scrapper para crear carpeta de papers
 scrapper("%5BAll+Fields%5D",2)
 
 logging.getLogger("transformers").setLevel(logging.ERROR)
-
+#Pasamos todo a Dataframe
 df = get_file_content("papers", 2)
-
-# Obtener palabras claves
-
 # Transformar palabras en vectores
 results = []
 for text in df['Text']:
