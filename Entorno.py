@@ -9,22 +9,22 @@ import glob
 
 def peticion_gpt(word_1,word_2):
 
-    ### Extraer papers 
-    # file_list = glob.glob('papers2/*.txt')
-    # documentos = []
-    # for file_path in file_list:
-    #     loader = UnstructuredFileLoader(file_path)
-    #     data = loader.load()
-    #     documentos.append(data)
+    ## Extraer papers 
+    file_list = glob.glob('papers2/*.txt')
+    documentos = []
+    for file_path in file_list:
+        loader = UnstructuredFileLoader(file_path)
+        data = loader.load()
+        documentos.append(data)
 
-    # ### Dividir papers en chunks
-    # text_splitter = RecursiveCharacterTextSplitter(
-    #     chunk_size = 1000,
-    #     chunk_overlap = 0)
-    # documentos_chunks = []
-    # for documento in documentos:
-    #     chonks = text_splitter.split_documents(documento)
-    #     documentos_chunks.extend(chonks)
+    ### Dividir papers en chunks
+    text_splitter = RecursiveCharacterTextSplitter(
+        chunk_size = 1000,
+        chunk_overlap = 0)
+    documentos_chunks = []
+    for documento in documentos:
+        chonks = text_splitter.split_documents(documento)
+        documentos_chunks.extend(chonks)
 
     ### Conecto a OpenAI para embeddings y a Pinecone para Vectores
     embeddings = OpenAIEmbeddings(
@@ -32,26 +32,42 @@ def peticion_gpt(word_1,word_2):
 
     pinecone.init(
         api_key = '4f58d18b-75ff-4404-94bc-832bf24c45d1',
+        environment = 'asia-southeast1-gcp-free')
+    ## Subir datos
+    docsearch = Pinecone.from_texts([t.page_content for t in documentos_chunks], embeddings, index_name=index_name)
+
+    # Conectarse con los datos ya existentes en Pinecone
+    pinecone.init(
+        api_key = '4f58d18b-75ff-4404-94bc-832bf24c45d1',
         environment = 'asia-southeast1-gcp-free'
     )
-    index_name = 'tid1'
-
-    ### Para cargar los datos a pinecone
-    #docsearch = Pinecone.from_texts([t.page_content for t in documentos_chunks], embeddings, index_name=index_name)
-
-    ### Para conectarse con los datos ya existentes en Pinecone
+    index_name = 'tid'
+    embeddings = OpenAIEmbeddings(openai_api_key='OPENAI_APIKEY')
     docsearch1 = Pinecone.from_existing_index(index_name, embeddings)
 
-    ### OpenAI LLM + LangChain para el QA
+    # OpenAI LLM + LangChain para el QA
     llm = OpenAI(
         temperature = 0,
-        openai_api_key = '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',
+        openai_api_key = 'OPENAI_APIKEY',
         )
+    index_name = 'tid1'
+
+    # Para cargar los datos a pinecone
+    docsearch = Pinecone.from_texts([t.page_content for t in documentos_chunks], embeddings, index_name=index_name)
+
+    # Para conectarse con los datos ya existentes en Pinecone
+    docsearch1 = Pinecone.from_existing_index(index_name, embeddings)
+
+    # OpenAI LLM + LangChain para el QA
+    llm = OpenAI(
+        temperature = 0,
+         openai_api_key = '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',
+            )
     chain = load_qa_chain(llm, chain_type="stuff")
     query = f"Describa en formato de regla, 5 relaciones posible entre {word_1} y {word_2}"
     print(query)
     docs = docsearch1.similarity_search(query)
     print(chain.run(input_documents = docs, question = query))
-    
+
     return docs
 
