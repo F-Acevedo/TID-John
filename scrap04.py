@@ -42,7 +42,7 @@ def get_article_url(article_id):
 user_agents_list = ['Mozilla/5.0 (Windows NT 10.0; Win64; x64)', 
                     'Mozilla/5.0 (Windows NT 6.1; Win64; x64)',
                     'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6)']  # reemplace esto con su lista de user-agents
-
+counter=0
 def scrape_main_content_text(article_id):
     global counter
     main_content_verif = 0
@@ -117,17 +117,15 @@ def set_page_value_by_xpath(driver, xpath, page):
 
 # puede añadir filtros de busqueda en el base url o apretar mas botones
 # base_url = 'https://www.ncbi.nlm.nih.gov/pmc/?term=(%5BAll+Fields%5D)'
-# page_input_xpath = '//*[@id="pageno2"]'
+page_input_xpath = '//*[@id="pageno2"]'
 # counter = 0
-{}
 
-def scrapper(term,page_index):
+def scrapper(term):
     base_url=f"https://www.ncbi.nlm.nih.gov/pmc/?term=({term})"
-    page_input_xpath= f'//*[@id="pageno{page_index}"]'
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
     driver.get(base_url)
 
-    for page in range(1, 11):
+    for page in range(1, 2):
         print(f"█████   Página {page}:")
         scrape_article_links(driver)
         set_page_value_by_xpath(driver, page_input_xpath, page+1)

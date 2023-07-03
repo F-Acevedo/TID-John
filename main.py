@@ -18,13 +18,15 @@ import mplcursors
 from mpl_interactions import ioff, panhandler, zoom_factory
 import logging
 from scrap04 import *
-from Entorno import *
+from Entorno import peticion_gpt
+
 #Llamamos a función scrapper para crear carpeta de papers
-scrapper("%5BAll+Fields%5D",2)
+scrapper("%5BAll+Fields%5D")
 
 logging.getLogger("transformers").setLevel(logging.ERROR)
-#Pasamos todo a Dataframe
-df = get_file_content("papers", 2)
+#Pasamos todo a Dataframe y selecionamos el número de papers a clusterizar
+df = get_file_content("papers", 5)
+
 # Transformar palabras en vectores
 results = []
 for text in df['Text']:
@@ -126,4 +128,4 @@ word_1 = word_1["words"].values[0]
 word_2 = word_2["words"].values[0]
 print([word_1, word_2])
 
-# openaiAPI(df["Text"], word_1, word_2)
+peticion_gpt(word_1,word_2)
