@@ -28,7 +28,7 @@ def peticion_gpt(word_1,word_2):
 
     ### Conecto a OpenAI para embeddings y a Pinecone para Vectores
     embeddings = OpenAIEmbeddings(
-        openai_api_key='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')
+        openai_api_key='OPENI_KEY')
 
     pinecone.init(
         api_key = '4f58d18b-75ff-4404-94bc-832bf24c45d1',
