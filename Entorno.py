@@ -37,18 +37,17 @@ def peticion_gpt(word_1,word_2):
     docsearch = Pinecone.from_texts([t.page_content for t in documentos_chunks], embeddings, index_name=index_name)
     '''
 
-    #Coneccion Pinecone
+    #Conexion Pinecone
     pinecone.init(
         api_key = '4f58d18b-75ff-4404-94bc-832bf24c45d1',
         environment = 'asia-southeast1-gcp-free'
     )
-    index_name = 'tid'
-    #Coneccion OpenAI (LLM y Embeddings)
+    index_name = 'tid1'
+    #Conexion OpenAI (LLM y Embeddings)
     llm = OpenAI(
         temperature = 0,
         openai_api_key = 'OPENAI_APIKEY',
         )
-    index_name = 'tid1'
     embeddings = OpenAIEmbeddings(openai_api_key='OPENAI_APIKEY')
 
     docsearch1 = Pinecone.from_existing_index(index_name, embeddings)
