@@ -1,0 +1,242 @@
+Danio rerio  in K-12 Classrooms: Sparking Interest in the New Generation of Scientists
+Abstract
+Zebrafish are ideal for experimental studies in the classroom because, in contrast to chicks or mammals, fish embryos are relatively easy and inexpensive to maintain, and embryonic development can be observed with common classroom equipment. The eight student-developed laboratory exercises described here have been used by students in Neuroscience Research at Sidwell Friends School. This course uses zebrafish as a vertebrate model to study genetics, development, behavior, neurobiology, regeneration, learning, and memory. The students develop protocols through collaboration with the teacher and scientists in specific fields. Through individual research, students develop and perform their own experiments, formulate and test hypotheses, learn basic laboratory and microscopy techniques, collect and analyze data, read original scientific literature, and collaborate with prominent zebrafish researchers.
+Introduction
+M any agree that  science education should include hands-on experiences for students of all ages. Students are more engaged and internalize material more effectively if they are allowed to explore and experiment.  The techniques and experiments discussed in this article offer a practical approach to using zebrafish for experimental studies in the classroom. This hands-on style of teaching can be very challenging for teachers, but it provides students with an opportunity to experience scientific research. By designing their own experiments, making careful observations and hypotheses, and drawing conclusions from experimental results on zebrafish, students gain a deeper understanding of the scientific method than is possible from following prescribed laboratory exercises.
+Zebrafish are ideal organisms for education. Model organisms such as chicks, mice, and rats are difficult to work with in a classroom setting because they introduce prohibitive costs, require special equipment, and present complications regarding animal rights issues. Invertebrates are not comparable for late-stage development and experimentation, especially with regard to the nervous system. Zebrafish are used in scientific research as a model for vertebrate development because they are easy to work with, develop rapidly as transparent embryos, and can be stained and viewed through a stereoscopic microscope. Their clear embryos allow for easy manipulation and detailed observation during development .
+This is an embryo at about 24 hours postfertilization still in its chorion. The anterior of the embryo is to the right, and the dorsal is to the bottom.
+Middle and high school students at Sidwell Friends School in Washington, DC, have worked with zebrafish for 8 years, beginning in 2001–2002, learning important concepts of molecular biology, genetics, development, and neuroscience. Students write up their work in the format of scientific papers, which helps improve their scientific writing skills. The course culminates in the presentation of a poster at the Pre-College Poster Session of a scientific meeting, either the American Society for Cell Biology (ASCB) or the Society for Neuroscience (SfN). Scientists at the meeting confer with the students as colleagues, asking and answering professional questions.
+This article presents eight student-designed laboratory exercises that have been used successfully by students in middle school through high school. They cover topics ranging from  in vitro  fertilization (IVF) to the effects of alcohol on fetal development. These topics are advanced, but can be simplified to include children as young as elementary school. Students in the current Neuroscience Research Course have performed all of the labs described in this article. They developed the following this year: Embryo Rearing (Lab 3), Effects of Temperature (Lab 4), and Melanophore (Lab 5). The students and the authors of this article refined all of the protocols published in this article. These labs provide opportunities for students of all ages to study science through zebrafish.
+Materials and Methods
+General maintenance of zebrafish colony
+Detailed information about fish care, maintenance, and breeding is available online  . Classroom teachers can order zebrafish breeding and development kits from several biological supply companies (Ward's Biological Supply Company, Rochester, NY,  , and Carolina Biological Supply Company, Burlington, NC,  ). Zebrafish can also be purchased through a local aquarium store, although the age and genetic history of the fish will be limited and variable from this source. Specific strains of zebrafish can be obtained from Zebrafish International Resource Center (ZIRC), University of Oregon, Eugene, OR, . Zebrafish are convenient to maintain in a 10-gallon tropical aquarium. They should be fed several times a day with live brine shrimp, tropical fish flakes, or a special zebrafish diet .
+Zebrafish breeding
+For breeding, adult fish must be kept on a 14-h light and 10-h dark cycle to simulate their natural environment. Adults breed 30 min to an hour after the lights come on. Adults can be placed overnight in separate specialized tanks for breeding, which allows fertilized eggs to fall into a chamber beneath a false bottom to prevent cannibalization of the embryos. After breeding is complete, the adults should be returned to their original tank .
+This is a breeding tank with an insert with a slit bottom that allows eggs to fall to the bottom. This prevents the adults from eating the newly fertilized eggs.
+Raising zebrafish embryos
+The fertilized eggs should be collected and placed in a Petri dish containing egg water solution.  Ideally, the embryos should be kept in an incubator at 28.5°C for about 3 days. Before 72 hours postfertilization (hpf), the young fish should be moved to a larger tank. If teachers wish to maintain fish aquaria, they need to be prepared for spills and leaks. Some basic knowledge for fish care and aquarium keeping is required.
+The following section contains the overviews of eight classroom labs. The instructions for those labs can be found in the   for this article. These overviews can be edited for various grade levels.
+Lab 1: With a Little Help from My Friends— In Vitro  Fertilization
+IVF is performed artificially in a laboratory dish. IVF is useful when normal methods of fertilization fail or do not occur regularly, or when fish at different stages of development are required. IVF is an essential lab technique because some experimental procedures need to be performed at specific times. For example, a dye may need to be injected at a precise developmental stage, such as 45 min postfertilization. IVF is only performed on adult fish. First, the fish are anesthetized with tricaine, commonly known as MS-222.  Sperm is collected from the males by gently squeezing the sides of the fish with forceps.  The sperm is added to cold Hank's solution, where it remains viable for up to 90 min.  The eggs are removed from the female fish through gentle pressure on the ventral side.  Both the eggs and the sperm are then mixed with 1 mL egg water, activating the sperm for fertilization.  The sperm fertilizes the egg upon contact with water due to a change in osmotic pressure and ion concentration. After the fertilization is complete, the embryos are examined for defects. The results of this lab can vary in success because the eggs do not always fertilize normally. Regular breeding and multiple repetitions of this experiment can help avoid these complications. IVF establishes the precise age of the embryo, which is often the most difficult variable to control in a lab .
+The plunger is a pipetter attached to tubing with a glass capillary inserted into the tubing. The glass capillary is inserted into the male fish to collect the sperm.
+Lab 2: It's Just a Phase—Characterizing Developmental Stages of Zebrafish Embryos
+Staging is an important part of every experiment involving the development of zebrafish. In some cases, the hpf requirements for a procedure are very specific. Zebrafish mature rapidly, growing from a single cell to a discernable organism within 24 h. It is therefore important for scientists and students to be able to distinguish between stages of embryonic development quickly and comfortably. Zebrafish mature through seven major stages: zygote, cleavage, blastula, gastrula, segmentation, pharyngula, and hatching.  Students who have completed this lab are expected to be able to categorize embryos into the major developmental stages, and understand the important characteristics of each stage. This skill allows student researchers to treat embryos with mutagens or teratogens at stages when they should be least or most effective. It also allows students to fix embryos at the appropriate time so that they can be stained to follow the morphological development of the fish. Staging is a necessary and ubiquitous skill in any zebrafish laboratory.
+Lab 3: All Grown Up and Out of the Chorion—Methods of Raising Zebrafish Embryos
+This lab involves experiments to determine optimal times for moving embryos through different size tanks in preparation for maintenance in an Aquatic Habitat (AHAB). Although there may be general guidelines for rearing  Danio rerio  embryos, there is no way to guarantee success in every laboratory without experimentation. Once an egg is fertilized, it may remain in its chorion, where it will be nourished for up to 4 days postfertilization (dpf).  The embryos are raised until 3 dpf in an incubated Petri dish, with the egg water changed three times a day. At 3 dpf, the fish are transferred into an small tank with one inch of egg water. Each day, 3/4 of the water is changed, and an additional inch of water is added until 19 dpf, when the fish are placed on a slow drip of system water. Daily feedings, alternating between brine shrimp and dried embryo food, have been most successful. The timing of these steps was influenced by trial and error as well as research of the literature. At 3 dpf, the embryo needs access to an open air–water interface to inflate the swim bladder.  Additionally, feeding of live food has been shown to improve survival rates in developing embryos.
+Lab 4: It's Getting Hot in Here—Effects of Temperature on Embryo Development
+Danio rerio  embryos are typically incubated at 28.5°C.  Embryogenesis occurs at temperatures between 24°C and 32°C though the speed of development will vary with temperature.  Developmental rates of embryos do not vary markedly within this range until the late blastula stage (3.3 hpf).  At this point, development slows for embryos kept at temperatures below 28.5°C and speeds up for embryos kept above 28.5°C.  During the embryos' development, the developmental lag between those kept at 24°C and those kept at 32°C is more apparent. It is possible to track the different rates of development by staging frequently throughout the experiment .
+This figure shows photos of embryos developing at different rates because of their differing incubation temperatures. ( A ) An embryo on day 2 of development at 22°C. The anterior of the embryo is to the right, and dorsal is to the bottom. ( B ) An embryo after 3 days of development at 22°C, lagging behind development, still in the chorion. Anterior of the embryo is oriented upward, while the dorsal is to the left. ( C ) Embryo developing at 28°C after 2 days. Anterior of the embryo is to the right, and dorsal is to the bottom. ( D ) Embryo developing at 28°C, out of the chorion after 3 days. Anterior of the embryo is to the right, and dorsal is to the bottom. ( E ) Embryo developing at 33°C, out of the chorion on day 2. Anterior of the embryo is to the left, and dorsal is to the top. ( F ) Embryo after 3 days if development at 33°C, very far developed. Anterior of the embryo is to the left, and dorsal is to the top.
+Lab 5: Chameleons of the Aquatic Habit—Studying Melanophores in Zebrafish
+Zebrafish are chameleons in their environment. The color change is controlled by either the aggregation or dispersal of their melanosomes, pigment-containing organelles within melanocytes. The melanosomes contain the dark black/brown pigment melanin. Aggregations of the pigment within the cell impart an overall lighter color to the fish, while dispersals darken the skin. The movement of melanosomes provides protection from predators and is triggered by visual cues in the fish's environment. Once the fish responds to the visual stimuli, proteins such as cytoplasmic dynein, kinesin, and myosin V are activated, causing the pigments to either aggregate or disperse.  As a result, there are changes in the fish's pigment pattern and improved camouflage. This experiment monitors these pigment changes in the spotted mutation of zebrafish, known as  leopards . Two tanks are covered entirely with laminated construction paper, one black and one white, creating single-color environments. A third tank is the control, which is left entirely transparent. Each tank contains four fish for a 20-day period; photographs are taken of each fish every 2 days to record changes in pigmentation. The arrangement of melanosomes should gradually change after a total of 12 days in the tanks . A handheld digital camera can be used to capture the results if a video microscope is not available.
+This figure documents the progression of the students' results. The columns represent melanophores of the fish in the control tank, black experimental tank, and white experimental tank, respectively. The rows represent the different days: days 3, 5, and 7, respectively. Notice how dark the fish in ( B ) is compared to that in ( A ), and how light the fish in ( C ) are to that in ( A ) only after 7 days.
+A possible future experiment would be to alternate the background color of the tanks to test the learning and memory capabilities of the fish. The fish should be able to change their pigmentation more rapidly when they are subjected to these alternating backgrounds.
+Lab 6: Cut to the Chase—Zebrafish Fin Regeneration
+Studying tissue regeneration allows students to understand the molecular mechanism of tissue growth and regeneration of body parts. Zebrafish are popular models for tissue regeneration because fish have the ability to regenerate numerous organs and body parts, including fins,  spinal cord tissue,  and heart  muscle. When zebrafish caudal fins (tail fin) are amputated, epithelial cells migrate to repair the injury, creating an apical epidermal cap. In this experiment, portions of zebrafish caudal fin are removed with two different cuts: a proximal cut, made closer to the body of the fish, and a distal cut, made farther from the body . After the tail is cut, cells receive positional information from the injured area, which controls the amount of needed tissue and the necessary growth rate for regeneration. The blastema (undifferentiated cells) forms directly beneath the apical epidermal cap on the stump of the tail, and it will differentiate to replace the missing fin.  Within 12 h, the blastema separates into the distal blastema and the proximal blastema. After this separation, the blastema and blood vessels gradually re-grow in the tail. The regenerating fin is photographed daily to record changes. This experiment will test the hypothesis that regardless of whether the cut in the fin is proximal or distal, the fin grows back to its original length in an equal amount of time, and therefore at different rates. The alternative hypothesis is that the portion of the fin cut distally will reestablish its original length faster than the portion of the tail cut proximally.
+This figure depicts the formation of the regenerating appendages. ( A ) and ( B ) show the blastema, or group of undifferentiated cells, forming during day 4, while ( C ), at a higher magnification, shows the blood vessels and melanocytes, or pigment cells within the blastema. ( D ), taken during day 7, shows the further growth of the fin along with the organization of the new blood vessels and appearance of pigment in this regenerated area. The fish is oriented posterior to anterior.
+Although much remains to be learned about the molecular mechanisms of blastema formation and growth, the termination of signaling simultaneously by both fibroblast growth factors (fgfs) and the Sonic hedgehog ( Shh ) signal transduction pathway is important in regulating the growth of the zebrafish fin after amputation. The blastemal tissue formation is dependent on the synthesis of fgfs. A more proximal blastema proliferates faster than a distal one because the regions of fgf signaling are higher in the more proximal amputations, thus creating a mechanism for controlling growth rates.  The  Shh  pathway is believed to stimulate mitosis.
+Lab 7: The Tale of the Headless Zebrafish—The Effects of Lithium Chloride on Zebrafish Embryos
+Lithium chloride (LiCl) inhibits the development of the anterior structures of the brain, including the frontal lobe and the forebrain, resulting in seemingly headless embryos. The Wnt signaling pathway is a complex network of interactive proteins that regulates embryogenesis and is evolutionarily conserved across animal species. When zebrafish embryos are exposed to LiCl, the chemical affects the Wnt signaling pathway.  This causes the expansion of the midbrain into areas of the forebrain, posteriorizing the brain. If treated with LiCl at the proper stage, the fish should develop with craniofacial deformities after 3 days. Exposure to LiCl at other stages results in multiple defects in postmidblastula embryos. By placing zebrafish at the sphere stage in a range of LiCl concentrations, a range of defects correlating to the strength of the solution can be observed.
+Lab 8: Sonic Hedgehog and Fetal Alcohol Syndrome—Detrimental Effects of Ethanol on Zebrafish Development
+Nearly half of mental developmental disabilities in children are caused by exposure to alcohol during fetal development.  This experiment exposes zebrafish embryos to varying concentrations of ethanol solution to determine the effects on embryonic development. Ethanol causes several abnormalities in the development of zebrafish embryos by inhibiting  Shh  pathways, which regulate facial features and brain development.  Inhibiting  Shh  signaling during facial development causes neural crest cell death and reduction in head size. As zebrafish develop in the presence of ethanol, cell signaling in the prechordal plate may be affected, thus disrupting the separation of the eye field. This causes mutations such as cyclopia, in which the eyes of the zebrafish are fused together.  In addition to deformities in the notochord, spinal cord, trunk, and facial development, ethanol also causes abnormal cell death in zebrafish. Many cells that are important in the development of facial structures die when exposed to ethanol. Physical deformities in the ethanol-exposed embryos directly correspond to the concentration of ethanol, and to the stage at which the embryos are treated.  Embryos should be treated at the dome/30% epiboly stage.  Embryos are treated with ethanol concentrations of 0.5%, 1%, and 1.5% from the 256-cell stage (2.5 hpf) to the shield stage (6 hpf). A control group (0% ethanol) for each treatment time and ethanol concentration is necessary. This allows the ethanol to affect the cells before cell migration occurs. Embryos treated before or after the dome stage will not yield results. This illustrates that exposure to alcohol at critical stages of development can cause developmental defects, and that chronic exposure to alcohol is not required.
+Discussion and Conclusion
+This article shows some of the ways to use zebrafish in a K-12 classroom environment. Individual exercises can be performed throughout an academic year to help students learn about specific concepts and grow as scientists. In addition to these laboratory exercises (detailed in the appendices), Mendelian Genetics can be studied by crossing fish with dominant and recessive traits, such as the dominant  longfin  trait and the recessive  leopard  trait. A fertilization and development lab can be performed with eggs from parent fish that are bred at several different times, allowing multiple stages to be observed in one lab period. The skill of staging can be introduced by giving students a mixed sample of the embryos and then asking them to separate them into their distinct stages. There are a variety of behavioral experiments that can be done to study learning and memory in zebrafish.
+These experiments are successful because basic care is relatively simple and many of these experiments are suitable—conceptually and in practice—for all ages. Many elementary schools keep classroom pets, and professionals are often willing to donate equipment to school labs. If elementary schools kept zebrafish as pets, the students could begin learning about basic fish care at a young age. If the students wanted to learn more, they could cover the tank with black or white construction paper and enjoy the changes in their pet fish while simultaneously learning about pigmentation. Students approaching high school could perform more complicated experiments, such as raising the fish in different temperatures. This type of experiment is simple in procedure but complex in content because it combines basic fish care, developmental stages, and effects of temperature on development. The students would then be prepared for more rigorous high school experiments where they could perform experiments, such as those examining exposure to ethanol or to LiCl. These experiments also provide practice in microscope techniques, data collection, statistical analysis, graphing, and hypothesis testing. The benefits of all these experiments certainly outweigh the difficulties because they help spark an interest in science at young ages. Young children experience a sense of accomplishment and an affinity for science through hands-on research. The zebrafish experiments described here add an authenticity to science classes because students of all ages can learn the theories and techniques of modern science.
+Appendix
+Lab 1: With a Little Help from My Friends— In Vitro  Fertilization
+
+Educator Note 
+This lab is best suited for high school students. Students working in small groups (4–6) gain experience in  in vitro  fertilization (IVF), help with the technical tasks of removing eggs and sperm, and take care of the embryos and adults after the exercise. IVF in zebrafish research facilities is performed monthly or when the females are egg bound (swollen abdomen). Each student should have two to four fish of each sex to work with to develop the necessary confidence and competence. Students in introductory biology who are working on zebrafish as a research project have joined with the Neuroscience Research students in doing this and continue to perform IVF monthly. The following procedure is based on one previously published in  The Zebrafish Book  .
+
+Objectives 
+
+Materials 
+300 mL beaker for tricaine
+
+Solution Formulas 
+Hank's premix
+Store Hank's premix in the refrigerator along with Hank's solutions. Hank's stock solutions
+
+Stock #1 
+
+Stock #2 
+
+Stock #4 
+
+Stock #5 
+Measure 9.9 mL of Hank's premix solution into a clean test tube with a screw cap.
+Add 0.1 mL fresh bicarbonate solution to Hank's premix.
+Undiluted tricaine solution (commonly known as MS-222 or 3-amino benzoic acidethylester)
+Store in freezer
+0.02% (w/v) diluted tricaine solution
+Stock salt solution
+Egg water
+
+Procedure  
+
+Questions 
+
+Answers 
+Lab 2: It's Just a Phase—Characterizing Developmental Stages of Zebrafish Embryos
+
+Educator Note 
+This lab can be modified for use with all age groups. It is best to breed the adults for several days to have embryos at a variety of different stages. The embryos then would ideally range from several hours old to several days old. This lab could be done in several ways. The “Station Method” involves students moving from microscope to microscope to observe the different embryos. The embryos are separated by the teacher or an aide by stage and placed into labeled Petri dishes at different stations. Another procedure would be to prepare sets of Petri dishes each containing a few fish at approximately the same stage of development representing the range of development that is available. These sets are then given to a small group of students (4–6). If the instructor's goal is to determine whether or not the students were competent at staging, either dishes could be organized as mentioned above but not labeled, or students could be given a dish of mixed age embryos.  The Zebrafish Book  is an excellent resource for this lab .
+
+Objectives 
+
+Materials 
+
+Solution Formulas 
+Stock salt solution
+Egg water
+
+Procedure 
+
+Examining embryos 
+
+Examining larvae 
+
+Data Analysis 
+Record your observations of embryonic development stages in a chart.
+
+Questions 
+
+Answers 
+Lab 3: All Grown Up and Out of the Chorion—Methods of Raising Zebrafish Embryos
+
+Educator Note 
+This exercise is designed for an educator who has decided to use zebrafish extensively. It will help young zebrafish researchers learn how to care for and raise embryos to adulthood. Any student working with zebrafish for a science project should learn how to raise the embryos. It is best suited for high school programs. However, if middle school teachers are interested in developing a program based on these organisms, this exercise is essential to success.  The Zebrafish Book  is a good resource regarding embryo rearing .
+
+Objective 
+
+Materials 
+
+Solution Formulas 
+Stock salt solution
+Egg water
+
+Procedure 
+
+Days 1 to 3 
+
+Days 3 to 15 
+
+Days 15 to 90 
+
+Days 90+ 
+
+Data Collection 
+Sketch one of the embryos every day for the first 3 days.
+
+Questions 
+
+Answers 
+Lab 4: It's Getting Hot in Here—Effects of Temperature on Embryo Development
+
+Educator Note 
+This exercise could be used as a science project for either middle school or high school students. It takes several weeks to complete, and Lab 3 should be consulted to successfully raise the embryos. It could be used as a whole class exercise with students working in teams monitoring the development of the fish at different temperatures. For either of these curricular uses, a team size of four to six students is recommended. The number of fish raised at each temperature is determined by the number of eggs that are fertilized. There should be a maximum of 25 embryos per Petri dish.
+
+Objective 
+
+Materials 
+
+
+Solution Formulas 
+Stock salt solution
+Egg water
+
+Procedure 
+
+Questions 
+
+Answers 
+Lab 5: Chameleons of the Aquatic Habit—Studying Melanophores in Zebrafish
+
+Educator Note 
+This exercise could be used for all grade levels and modified for the age group that is being targeted. With younger children, this could be used as a class demonstration with the teacher doing most of the work. With older children this could be done as a long-term whole-class project or suggested as a science project for an individual or a group of individuals. For some classes in middle and high school, this could be a whole-class project where different teams of four to six students each try different variations of the protocol.
+
+Objective 
+
+Materials 
+
+Solution Formulas 
+Undiluted tricaine solution (commonly known as MS-222 or 3-amino benzoic acidethylester)
+(Store in freezer.)
+This recipe makes a 0.4% (w/v) solution
+0.02% Tricaine solution
+
+Procedure 
+
+Construction of experimental tanks 
+Note: When constructing the white tank, after taping the white paper to the lid, tape a piece of laminated black paper (same size) as well to the top of the lid so that the night and day cycle of the system does not interfere with the experiment.
+
+Procedure 
+
+Questions 
+
+Answers 
+Lab 6: Cut to the Chase—Zebrafish Fin Regeneration
+
+Educator Note 
+This exercise can be used in either middle school or high school. It can be performed as a whole-class assignment with two to four students in a team. Each group should have four to six fish to work with; the whole class can then combine and analyze all the regeneration data. Alternatively, this lab could be used as a science project for a group of four to six students. If the lab is done as a project, more fish should be used, and the experiment should be repeated. It takes about 2 weeks to get conclusive data.
+
+Objective 
+
+Materials 
+
+Solution Formulas 
+Undiluted tricaine solution (commonly known as MS-222 or 3-amino benzoic acidethylester)
+(Store in freezer.)
+This recipe makes a 0.4% (w/v) solution
+0.02% (w/v) tricaine solution
+
+Procedure 
+
+Questions 
+
+Answers 
+Lab 7: The Tale of the Headless Zebrafish—The Effects of Lithium Chloride on Zebrafish Embryos
+
+Educator Note 
+This exercise is best suited to a high school program. It can be done as a whole-class project where students work in teams of four to six. Each team could do the entire experiment, or the class could work together dividing up the experiment. Each team could test a different concentration of LiCl on the embryos. If this is done, each team should have a control dish. Group data should be gathered and analyzed. This lab could alternately be used as an individual science project for a small group of four to six students. It takes about 72 h for the abnormalities to be observable by students. Eight to 10 embryos should be placed in each of the Petri dishes of different molar concentrations of LiCl.
+
+Objective 
+
+Materials 
+
+Solution Formulas 
+Stock salt solution
+Egg water
+
+Procedure 
+
+Questions 
+
+Answers 
+Lab 8: Sonic Hedgehog and Fetal Alcohol Syndrome—Detrimental Effects of Ethanol on Zebrafish Development
+
+Educator Note 
+This exercise is best suited to a high school program. It can be done as a whole-class project where students work in teams of four to six. Each team could do the entire experiment or the class could work together dividing up the experiment. Each team could test a different concentration of ethanol on the embryos. If this is done each team should have a control dish. Group data should be gathered and analyzed. This lab could alternately be used as an individual science project for a small group of four to six students. It takes about 72 h for the abnormalities to be observable by students. Eight to 10 embryos should be placed in each of the Petri dishes of different molar concentrations of ethanol.
+
+Objective 
+
+Materials 
+
+Solution Formulas 
+Stock salt solution
+Egg water
+
+Procedure 
+•  Preparation:  Prepare one 0.5% ethanol solution, one 1.0% ethanol solution, and one 1.5% ethanol solution.
+
+Questions 
+
+Answers 
+Acknowledgments
+The authors would like to thank Drs. M. Behra (NHGRI), S. Burgess (NHGRI), C. Carr (University of Maryland), J. Eisen (University of Oregon), S. Ekker (University of Minnesota), R.D. Fields (NIH), E. Glasgow (Georgetown University Biomedical Graduate Research Organization and Lombardi Comprehensive Cancer Center), J. Kuhlman (University of Oregon), as well as Lance Squires (Aquatic Habitat), Greg Palardy (Laboratory of Molecular Genetics NICHD, National Institutes of Health), R.D. Webster (San Francisco Bay Brand), Shannon Knuth (Gene Tools), Edvotek, Percy Martin, Val Parsegian, Abby Goldberg, Ryan McElroy, Alexander Ordoobadi, Thomas Esch, and Zebrafish International Resource Center (Grant # RR12546) for their advice and support. We also would like to thank the Science Department and the Administration of Sidwell Friends School for helping this class be successful.
+Disclosure Statement
+No competing financial interests exist.
+References
+Other Formats
+Actions
+Share
+RESOURCES
